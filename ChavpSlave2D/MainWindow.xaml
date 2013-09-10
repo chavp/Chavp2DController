@@ -1,0 +1,8 @@
+﻿<Window x:Class="ChavpSlave2D.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chavp Slave 2D" Height="550" Width="550" ResizeMode="NoResize">
+    <Canvas HorizontalAlignment="Left" Height="330" Margin="10,10,0,0" VerticalAlignment="Top" Width="515">
+        <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Canvas.Left="{Binding X}" Canvas.Top="{Binding Y}" />
+    </Canvas>
+</Window>
